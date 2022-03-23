@@ -16,7 +16,7 @@ def create(event, context):
     # Set the default error response
     response = {
         "statusCode": 500,
-        "body": "An error occured while creating article."
+        "body": "An error occured while creating articles."
     }
 
     article_str = event['body']
